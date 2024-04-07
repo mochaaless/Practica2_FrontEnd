@@ -1,0 +1,138 @@
+h1 {
+  font-size: 4rem;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: Fantasy;
+  color: black;
+  text-shadow: rgb(255, 128, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.layout-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.layout-button {
+  border: 1px solid rgb(255, 128, 0);
+  border-radius: 8px;
+  font-size: 24px;
+  margin: 4px 2px;
+  display: flex;
+}
+
+.layout {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 10vh;
+  width: 60%; 
+  background-color: rgb(255, 128, 0);
+  border-radius: 10px; 
+  margin: 10px auto; 
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(255, 128, 0);  
+  font-family: Fantasy;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+.pokemones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.pokemon-img {
+  width: 240px;
+}
+
+.container-pokemon {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 50px; /* Ajusta el margen según tus necesidades */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form .button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 128, 0);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form .button:hover {
+  background-color: #0bcd1c;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.delete-button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 128, 0);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form .delete-button:hover {
+  background-color: #0bcd1c;
+}
+
+
+body {
+  background-image: url("https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/pokemon-chromebook-wallpaper.jpg");
+}
